@@ -1,14 +1,14 @@
-# ZG ZoneGods — releases and compatibility
+# ZG ZoneGods — releases / entregas
 
-Source version snapshot: **2.1.4**. This is not a claim that a matching protected release file has been uploaded.
+## 2.1.5 protected candidate / candidato protegido
 
-- Minecraft 1.20.1, Forge 47.x.
-- Distribution layout: **universal**.
-- Required dependencies from current source metadata: **ZoneCore**.
-- One CurseForge page per functional mod. Client and server files, when present, are uploaded to that same page and labeled with their compatible pair.
-- Do not install `-dev`, fixture, test, source or unprotected build JARs.
-- Check the final file changelog, SHA-256 and dependency ranges before deploying to a persistent world.
+- Minecraft 1.20.1, Forge 47.x, Java 17. **One universal JAR on both client and server**, with matching version 2.1.5. ZoneCore `[2.0.0,)` is mandatory on the server only.
+- `zonegods-2.1.5-protected.jar` SHA-256 `C5746445B9A432DD616E3E42237EAAFF8A273EE8B90A22D8F0E9398AD57FEE46`.
+- New release metadata: Elgochogms, All Rights Reserved, `LICENSE.txt` packaged. Earlier MIT grants remain in effect for older versions. Gameplay, item IDs and custom assets are retained from 2.1.4.
+- Gradle clean build, armor geometry bake (`DRAGON_ARMOR_BAKE_OK`) and ProGuard passed; no Java source or private mapping is embedded. The exact protected JAR started with protected Core 2.1.3 on isolated Forge 47.4.10. `/zonegods config info` and `/zonegods reload` responded; shutdown was clean. Both staff TOML files were generated.
+- Client render, held sword and equipped armor views, item effects in combat, multiplayer, complete modpack and production hosting have not been tested with this protected 2.1.5 JAR. CurseForge upload/review remains pending.
 
 ## Español
 
-La versión de las fuentes revisadas es **2.1.4**; eso no significa que se haya subido un JAR final protegido. Comprueba la pareja cliente/servidor, SHA-256, dependencias y notas de cambios de cada archivo publicado. No instales JAR `-dev`, de pruebas ni de compilación sin protección.
+Un JAR universal 2.1.5 para cliente y servidor, con Core solo en servidor. Compiló, pasó la comprobación de geometría y arrancó en servidor Forge aislado. Los modelos visuales y efectos de combate aún necesitan prueba dentro del cliente y del modpack. Comprueba el SHA-256 y respalda el mundo antes de instalar.
+

@@ -6,7 +6,7 @@
 - `zonegods-2.1.5-protected.jar` SHA-256 `C5746445B9A432DD616E3E42237EAAFF8A273EE8B90A22D8F0E9398AD57FEE46`.
 - New release metadata: Elgochogms, All Rights Reserved, `LICENSE.txt` packaged. Earlier MIT grants remain in effect for older versions. Gameplay, item IDs and custom assets are retained from 2.1.4.
 - Gradle clean build, armor geometry bake (`DRAGON_ARMOR_BAKE_OK`) and ProGuard passed; no Java source or private mapping is embedded. The exact protected JAR started with protected Core 2.1.3 on isolated Forge 47.4.10. `/zonegods config info` and `/zonegods reload` responded; shutdown was clean. Both staff TOML files were generated.
-- Client render, held sword and equipped armor views, item effects in combat, multiplayer, complete modpack and production hosting have not been tested with this protected 2.1.5 JAR. CurseForge upload/review remains pending.
+- Client render, held sword and equipped armor views, item effects in combat, multiplayer, complete modpack and production hosting have not been tested with this protected 2.1.5 JAR. Uploaded as CurseForge **Beta** [file 9124729](https://authors.curseforge.com/#/projects/1738038/files/9124729) for Client and Server; analysis, moderation and public availability are pending.
 
 ## Español
 

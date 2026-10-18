@@ -1,4 +1,4 @@
-# ZG ZoneGods 2.1.5 — configuration / configuración
+# ZoneGods 2.1.5 — configuration / configuración
 
 The protected 2.1.5 JAR generated these exact files on isolated Forge 47.4.10. / El JAR protegido 2.1.5 generó estos archivos en Forge aislado.
 

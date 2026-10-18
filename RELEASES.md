@@ -1,4 +1,4 @@
-# ZG ZoneGods — releases / entregas
+# ZoneGods — releases / entregas
 
 ## 2.1.5 protected candidate / candidato protegido
 
